@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import { InfoPage } from "../components/info-page";
+export const metadata: Metadata = { title: "About GameTools", description: "Learn about GameTools, free practical tools for gamers." };
+export default function AboutPage() { return <InfoPage eyebrow="About" title="Tools that respect your time."><p>GameTools is a growing collection of focused calculators for games you already love. We keep the experience quick, clear, and useful on desktop or mobile.</p><p>Our tools are built to help you make decisions while you play, without requiring an account or putting a wall between you and the answer.</p></InfoPage>; }

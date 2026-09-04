@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import { InfoPage } from "../components/info-page";
+export const metadata: Metadata = { title: "Terms of Use", description: "The GameTools terms of use." };
+export default function TermsPage() { return <InfoPage eyebrow="Legal" title="Terms of use"><p>GameTools provides calculators and information for general planning and entertainment. Results are estimates based on published game mechanics and should be checked against the version of the game you are playing.</p><p>By using this site, you agree to use it responsibly and understand that tools may change as games are updated.</p></InfoPage>; }

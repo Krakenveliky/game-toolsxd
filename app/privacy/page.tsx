@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import { InfoPage } from "../components/info-page";
+export const metadata: Metadata = { title: "Privacy Policy", description: "The GameTools privacy policy." };
+export default function PrivacyPage() { return <InfoPage eyebrow="Legal" title="Privacy policy"><p>GameTools is designed to work without an account. We do not ask for personal information to use our calculators. When analytics or advertising are added, this page will explain what data is collected and why.</p><p>We may use essential cookies or similar technologies required to operate the site. Contact us with privacy questions.</p></InfoPage>; }
